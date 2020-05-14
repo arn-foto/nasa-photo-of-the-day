@@ -6,9 +6,11 @@ const ImageContainter = (props) => {
 	return (
 		<section className="NasaPic">
 			<div>
-				<p>NASA Photo of the day 🚀</p>
-            </div>
-            <div><h1>{apiData.date}</h1></div>
+				<span>NASA Photo of the day 🚀</span>
+			</div>
+			<div>
+				<h1>{apiData.date}</h1>
+			</div>
 			<div>
 				<img src={apiData.hdurl} />
 			</div>

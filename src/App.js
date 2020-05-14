@@ -5,7 +5,6 @@ import ImageContainter from './NasaPic';
 import Footer from './Footer';
 import './App.css';
 
-
 function App() {
 	const [ apiData, setApi ] = useState({});
 	const [ setId ] = useState(0);
