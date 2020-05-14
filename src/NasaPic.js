@@ -8,11 +8,12 @@ const ImageContainter = (props) => {
 			<div>
 				<span>NASA Photo of the day 🚀</span>
 			</div>
-			<div>
-				<h1>{apiData.date}</h1>
-			</div>
+
 			<div>
 				<img src={apiData.hdurl} />
+			</div>
+			<div>
+				<h1>{apiData.date}</h1>
 			</div>
 			<div>
 				<h2>{apiData.title}</h2>
